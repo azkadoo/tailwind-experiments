@@ -1,18 +1,10 @@
 {
-  "dependencies": {
-    "typed.js": "^3.0.0",
-    "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2"
-  },
   "name": "tailwind-experiments",
   "version": "1.0.0",
   "description": "Exploring things in tailwind (using node.js)",
   "main": "main.js",
   "scripts": {
-    "dev": "npx webpack ./src/main.js --watch",
-    "tw:dev": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/global.css --watch",
-    "build": "npx webpack ./main.js --mode=production",
-    "tw:build": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/global.css --mode=production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,9 +13,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/azkadoo/tailwind-experiments/issues"
   },
-  "homepage": "https://github.com/azkadoo/tailwind-experiments#readme"
+  "homepage": "https://github.com/azkadoo/tailwind-experiments#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2",
+    "typed.js": "^3.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
+  }
 }
