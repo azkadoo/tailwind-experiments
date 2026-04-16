@@ -15,7 +15,7 @@
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
             <div class="space-y-6 sm:space-y-4 lg:pl-16">
-              <div class="flex">
+              <div class="flex items-start">
                 <p
                   id="textRotator"
                   class="text-sm md:text-base lg:text-base font-medium text-[#c5f2fb]"
@@ -30,7 +30,7 @@
               <div class="p-0.5 flex">
                 <a
                   href="https://www.linkedin.com/in/azka-nur/"
-                  class="p-2 rounded-full self-center hover:bg-[#011f3b]"
+                  class="p-2 rounded-full self-center hover:bg-[#011f3b] duration-200 ease-in-out"
                 >
                   <img
                     src="img/linkedin-white.svg"
@@ -40,7 +40,7 @@
                 </a>
                 <a
                   href="https://github.com/azkadoo"
-                  class="p-2 rounded-full self-center hover:bg-[#011f3b]"
+                  class="p-2 rounded-full self-center hover:bg-[#011f3b] duration-200 ease-in-out"
                 >
                   <img
                     src="img/github-white.svg"
@@ -53,31 +53,180 @@
             </div>
           </div>
           <div class="p-8 lg:w-1/2 sm:p-16 md:p-24 lg:p-24">
-            <img src="img/azka.jpg" alt="" class="rounded-full" />
+            <img
+              src="img/azka.jpg"
+              alt=""
+              class="rounded-2xl md:rounded-8xl lg:rounded-full"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Hero Section End -->
+    <!-- Hero Section END -->
 
-    <!-- <section
-      class="flex items-center justify-center p-8 px-20 py-16 space-x-12 rounded-3xl"
-    >
-      <img class="w-full rounded-full" src="img/azka.jpg" alt="" />
-      <div class="space-y-4 items-star max-w-100">
-        <div class="flex justify-start">
-          <p id="textRotator" class="">I am still learning.</p>
-        </div>
-        <h1 class="text-[#f4f1ea] text-5xl text-balance text-start">
-          Hello, I'm Azka.
-        </h1>
-        <p class="text-start">
-          Informatics Engineering fresh graduate with experience in UI/UX design
-          and product development.
+    <!-- Projects Section Start -->
+
+    <div class="mt-16 mb-12 pl-12">
+      <h1 class="text-5xl font-medium lg:text-6xl lg:text-center">Projects</h1>
+    </div>
+
+    <!-- Grids -->
+    <div class="grid px-12 space-y-12 lg:grid-cols-3 lg:space-x-8 lg:px-16">
+      <!-- Card 1 -->
+      <div class="px-8 bg-[#001325] rounded-4xl">
+        <p class="text-4xl mt-8">Lensa Kata</p>
+        <p class="mt-4">
+          LensaKata is a gamification-based educational platform that focuses on
+          children's literacy development, particularly on story comprehension,
+          vocabulary enrichment, and creative writing.
         </p>
+        <!-- Role -->
+        <p class="mt-6 font-semibold">Role</p>
+        <div class="flex flex-wrap mt-4 space-x-2">
+          <div
+            class="rounded-full py-2 px-4 font-medium text-sm bg-[#011f3b] text-white hover:bg-[#c5f2fb] hover:text-[#011f3b]"
+          >
+            <p>Team Lead</p>
+          </div>
+          <div
+            class="rounded-full py-2 px-4 font-medium text-sm bg-[#011f3b] text-white hover:bg-[#c5f2fb] hover:text-[#011f3b]"
+          >
+            <p>UX Researcher</p>
+          </div>
+        </div>
+        <img
+          src="img/lenka.jpg"
+          alt="Lensa Kata"
+          class="rounded-4xl md:w-full mt-8"
+        />
       </div>
-    </section> -->
+      <!-- Card 2 -->
+      <div class="px-8 bg-[#001325] rounded-4xl">
+        <p class="text-4xl mt-8">SeHal</p>
+        <p class="mt-4">
+          SeHal is a platform that helps users find nearby halal food courts and
+          restaurants, with a POS system for restaurant owners to manage
+          operations and apply for halal certification.
+        </p>
+        <!-- Role -->
+        <p class="mt-6 font-semibold">Role</p>
+        <div class="flex flex-wrap mt-4 space-y-4 space-x-4">
+          <div
+            class="rounded-full py-2 px-4 font-medium text-sm bg-[#011f3b] text-white hover:bg-[#c5f2fb] hover:text-[#011f3b]"
+          >
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+        <img
+          src="img/SeHal.png"
+          alt="SeHal"
+          class="rounded-4xl md:w-full mt-8"
+        />
+      </div>
+      <!-- Card 3 -->
+      <div class="px-8 bg-[#001325] rounded-4xl">
+        <p class="text-4xl mt-8">JurKos</p>
+        <p class="mt-4">
+          SeHal is a platform that helps users find nearby halal food courts and
+          restaurants, with a POS system for restaurant owners to manage
+          operations and apply for halal certification.
+        </p>
+        <!-- Role -->
+        <p class="mt-6 font-semibold">Role</p>
+        <div class="flex flex-wrap mt-4 space-y-4 space-x-4">
+          <div
+            class="rounded-full py-2 px-4 font-medium text-sm bg-[#011f3b] text-white hover:bg-[#c5f2fb] hover:text-[#011f3b]"
+          >
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+        <img
+          src="img/JurKos.png"
+          alt="JurKos"
+          class="rounded-4xl md:w-full mt-8"
+        />
+      </div>
+    </div>
+
+    <!-- Grids -->
+    <!-- <div
+      class="grid grid-cols-1 px-16 gap-y-8 lg:grid-cols-2 lg:space-x-8 lg:px-16 justify-center"
+    >
+      <div
+        class="py-12 px-8 space-y-6 rounded-4xl bg-[#001325] hover:bg-[#021e38]"
+      >
+        <img src="img/lenka.jpg" alt="Lensa Kata" class="rounded-2xl" />
+        <div class="space-y-4">
+          <p class="text-5xl font-medium">Lensa Kata</p>
+          <p>
+            LensaKata is a gamification-based educational platform that focuses
+            on children's literacy development, particularly on story
+            comprehension, vocabulary enrichment, and creative writing.
+          </p>
+        </div>
+        <div class="space-y-3 flex flex-wrap gap-2 pt-8">
+          <p class="font-medium">Role</p>
+          <div class="flex flex-wrap pt-8">
+            <div
+              class="text-[#f4f1ea] font-medium bg-[#06254e] px-4 py-2 rounded-2xl"
+            >
+              <p>UX Researcher</p>
+            </div>
+            <div
+              class="text-[#f4f1ea] font-medium bg-[#06254e] px-4 py-2 rounded-2xl"
+            >
+              <p>UI Designer</p>
+            </div>
+        </div>
+      </div>
+      <div
+        class="py-12 px-8 space-y-6 rounded-4xl bg-[#001325] hover:bg-[#021e38]"
+      >
+        <img src="img/SeHal.png" alt="SeHal" class="rounded-2xl" />
+        <div class="space-y-4">
+          <p class="text-5xl font-medium">SeHal</p>
+          <p>
+            LensaKata is a gamification-based educational platform that focuses
+            on children's literacy development, particularly on story
+            comprehension, vocabulary enrichment, and creative writing.
+          </p>
+        </div>
+        <div class="space-y-3">
+          <p class="font-medium">Role</p>
+          <div class="flex flex-wrap justify-start space-x-4">
+            <div
+              class="text-[#f4f1ea] font-medium bg-[#06254e] px-4 py-2 rounded-2xl"
+            >
+              <p>UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="py-12 px-8 space-y-6 rounded-4xl bg-[#001325] hover:bg-[#021e38]"
+      >
+        <img src="img/JurKos.png" alt="JurKos" class="rounded-2xl" />
+        <div class="space-y-4">
+          <p class="text-5xl font-medium">JurKos</p>
+          <p>
+            JurKos is a boarding house rental app designed to help users find
+            options that match their budget and location while improving visual
+            appeal.
+          </p>
+        </div>
+        <div class="space-y-3">
+          <p class="font-medium">Role</p>
+          <div class="flex flex-wrap justify-start space-x-4">
+            <div
+              class="text-[#f4f1ea] font-medium bg-[#06254e] px-4 py-2 rounded-2xl"
+            >
+              <p>UI Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <script src="dist/main.js"></script>
   </body>
