@@ -1,7 +1,7 @@
 import Typed from "typed.js";
 
 const typed = new Typed("#textRotator", {
-  strings: ["UI/UX Designer", "Web Developer", "Gamification Enthusiast"],
+  strings: ["UI/UX Designer", "Web Developer", "Gamified Education"],
   typeSpeed: 50,
   loop: true,
 });

@@ -22,6 +22,7 @@
   "homepage": "https://github.com/azkadoo/tailwind-experiments#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2",
+    "lucide": "^1.8.0",
     "tailwindcss": "^4.2.2",
     "typed.js": "^3.0.0",
     "webpack": "^5.106.2",
