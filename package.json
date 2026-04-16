@@ -4,7 +4,7 @@
   "description": "Exploring things in tailwind (using node.js)",
   "main": "main.js",
   "scripts": {
-    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./global.css --watch",
+    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
     "build": "npx webpack ./main.js --mode=production"
   },
   "repository": {
