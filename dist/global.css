@@ -760,6 +760,9 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-\[\#000c17\] {
+    color: #000c17;
+  }
   .text-\[\#5ce4ff\] {
     color: #5ce4ff;
   }
