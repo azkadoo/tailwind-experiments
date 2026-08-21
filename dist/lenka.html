@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,92 +15,122 @@
             </a>
         </div>
     </header>
-    <main class="px-10">
+    <main class="px-4">
         <!-- Introduction Section -->
         <div class="mb-24 flex-col justify-items-center grid gap-y-4 self-center">
-            <div class="mb-4 flex-col justify-items-center grid gap-y-2 self-center">
-                <img src="img/lenka-logo.png" alt="Lenka Logo" class="max-w-52">
+            <!-- Project Name -->
+            <div class="flex-col justify-items-center grid gap-y-2 self-center">
+                <img src="img/lenka.jpg" alt="lenka-cover" class="md:max-w-lg rounded-2xl">
                 <h1 class="font-medium text-6xl text-center">Lensa Kata</h1>
             </div>
-            <!-- Programs -->
-            <div class="flex flex-wrap gap-3 justify-center">
-                <div class="grid place-items-center bg-white justify-items-center px-2 rounded-full">
-                    <img src="img/msib.png" alt="msib" class="max-w-28">
-                </div>
-                <div class="grid place-items-center bg-white px-2 rounded-full">
-                    <img src="img/educourse.png" alt="msib" class="max-w-28">
-                </div>
-            </div>
-            <!-- Tasks -->
+            <!-- Project Description -->
+            <p class="md:max-w-2/3 text-center">Lensa Kata is a gamified literacy platform designed to help elementary school children practice reading comprehension, vocabulary, and creative writing.</p>
+            <!-- Metadata -->
             <div class="flex flex-wrap gap-0.5 justify-center">
                 <div class="flex flex-wrap gap-3 justify-center">
                     <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                        <p class="text-sm">Product Research</p>
-                    </div>
-                    <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#031e36] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                        <p class="text-sm">UX Research</p>
+                        <p class="text-sm">Product Designer</p>
                     </div>
                     <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                        <p class="text-sm">Team Lead</p>
+                        <p class="text-sm">8 Team Members</p>
+                    </div>
+                    <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+                        <p class="text-sm">4 Months (2024)</p>
+                    </div>
+                    <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+                        <p class="text-sm">MSIB - Educourse.id (Batch 7)</p>
                     </div>
                 </div>
             </div>
-            <!-- Descriptions -->
-            <p class="max-w-2/3 text-center">Lensa Kata is a gamification-based educational platform that focuses on children's literacy development, particularly on story comprehension, vocabulary enrichment, and creative writing.</p>
+            <!-- Achievement -->
+            <a href="#achievement">
+                <div class="flex place-items-center bg-[#c5f2fb] text-[#062440] py-2 px-4 gap-2 rounded-full transition-all duration-300 ease-in-out">
+                    <img src="img/trophy-material-7-svgrepo-com.png" alt="LinkedIn" class="h-4">
+                    <p class="text-sm">2nd Best Capstone Project</p>
+                </div>
+            </a>
         </div>
         <!-- Introduction Section END -->
-        <!-- Pain Point Section -->
+        <!-- Problem Section 2 -->
         <div class="flex-col justify-items-center py-2 mb-20 grid self-center">
-            <p class="text-4xl">Pain Points</p>
-            <!-- 3 Pain Points List -->
-            <div class="w-full p-6 md:p-8 grid grid-cols-2 gap-4 rounded-4xl">
-                <div class="col-span-2 p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
-                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Illiteracy</p>
-                    <p class="text-sm text-gray-500">The literacy rate of elementary school children in Indonesia <span class="text-[#d9ffaa]">is still low</span>.</p>
+            <!-- Section Header -->
+            <p class="text-4xl text-center">Why Did We Build This?</p>
+            <!-- Problem List -->
+            <div class="w-full p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-4xl">
+                <div class="p-3 grid col-span-2 gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Reading comprehension</p>
+                    <p class="text-sm text-gray-500">Children still <span class="text-[#d9ffaa]">face challenges</span> in developing reading literacy.</p>
                 </div>
-                <div class="rounded-2xl p-3 grid gap-2 border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
-                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Disinterest</p>
-                    <p class="text-sm text-gray-500">Children are more interested in <span class="text-[#d9ffaa]">playing games</span> or <span class="text-[#d9ffaa]">social media</span> than reading.</p>
+                <div class="p-3 grid col-span-2 md:col-span-1 gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Engagement</p>
+                    <p class="text-sm text-gray-500">Traditional reading activities can <span class="text-[#d9ffaa]">struggle to compete</span> with more engaging digital experiences.</p>
                 </div>
-                <div class="rounded-2xl p-3 grid gap-2 border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
-                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Lack of Creativity</p>
+                <div class="p-3 grid col-span-2 md:col-span-1 gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#c5f688] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-1xl font-semibold md:font-normal md:text-2xl">Creative Expression</p>
                     <p class="text-sm text-gray-500">Students have <span class="text-[#d9ffaa]">difficulty</span> expressing creative ideas from textual information.</p>
                 </div>
             </div>
-            <!-- References -->
-            <div class="grid gap-2 w-full px-8 md:px-9 lg:px-10">
-                <p class="font-semibold">References</p>
-                <div class="flex gap-3 w-full">
-                    <a href="https://gpseducation.oecd.org/CountryProfile?primaryCountry=IDN&topic=PI&treshold=10" target="_blank">
-                        <div class="grid place-items-center w-32 bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                            <p class="text-sm">PISA 2022</p>
+            <!-- Illustration and Text -->
+            <div class="w-full px-8 grid grid-cols-1 md:grid-cols-2 rounded-4xl">
+                <div class="w-full md:py-6 md:pr-6 grid grid-cols-2 gap-4 rounded-4xl">
+                    <img src="img/lenka-problem.png" alt="lenka-problem" class="grid col-span-2 rounded-2xl">
+                </div>
+                <div>
+                    <p class="text-normal text-gray-500 mt-4 text-justify">The challenge is not simply that children are reading less, but that literacy is competing with an increasingly digital environment. PISA 2022 shows that Indonesian students scored an average of <span class="text-[#d9ffaa]">359 points</span> in reading, significantly <span class="text-[#d9ffaa]">below the OECD average of 476</span>. At the same time, digital devices are becoming part of children’s everyday lives from an early age.</p>
+                    <p class="text-normal text-gray-500 mt-4 text-justify">BPS reported that 33.44% of children <span class="text-[#d9ffaa]">aged 0–6</span> in Indonesia were already able to use mobile phones in 2022. These findings suggest an opportunity to rethink how literacy is introduced: instead of positioning reading as an activity that competes with digital entertainment, we explored how familiar interactive experiences could be used to make literacy practice more engaging.</p>
+                    <!-- Reference List -->
+                    <div class="grid gap-2 w-full py-6 md:py-4">
+                        <!-- <p class="font-semibold">References</p> -->
+                        <div class="flex flex-wrap gap-0.5">
+                            <div class="flex flex-wrap gap-3">
+                                <a href="https://gpseducation.oecd.org/CountryProfile?primaryCountry=IDN&topic=PI&treshold=10" target="_blank">
+                                    <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+                                        <p class="text-sm">PISA 2022</p>
+                                    </div>
+                                </a>
+                                <a href="https://www.bps.go.id/id/publication/2022/02/25/0a2afea4fab72a5d052cb315/statistik-indonesia-2022.html" target="_blank">
+                                    <div class="grid place-items-center bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+                                        <p class="text-sm">BPS 2022</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </a>
-                    <a href="https://www.bps.go.id/id/publication/2022/02/25/0a2afea4fab72a5d052cb315/statistik-indonesia-2022.html" target="_blank">
-                        <div class="grid place-items-center w-32 bg-[#031e36] text-white hover:bg-[#c5f2fb] hover:text-[#062440] py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                            <p class="text-sm">BPS 2022</p>
-                        </div>
-                    </a>
-            </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Pain Point Section END-->
-        <!-- Solution Section -->
+        <!-- Problem Section 2 END-->
+        <!-- Decisions Section -->
+        <div class="flex-col justify-items-center py-2 px-8 mb-20 grid self-center">
+            <p class="text-4xl text-center">Design Decisions</p>
+            <!-- Illustration and Text -->
+            <div class="w-full pt-6 grid grid-cols-1 md:grid-cols-2 rounded-4xl">
+                <div class="w-full md:py-6 md:pr-6 grid grid-cols-2 gap-4 rounded-4xl">
+                    <img src="img/lenka-decision.png" alt="lenka-decision" class="grid col-span-2 rounded-2xl">
+                </div>
+                <div>
+                    <p class="text-normal text-gray-500 mt-4 text-justify">Based on the challenges identified during discovery, I proposed focusing the learning experience around three core literacy activities: <span class="text-white">reading comprehension</span>, <span class="text-white">sentence construction</span>, and <span class="text-white">creative writing</span>. Rather than treating reading as a passive activity, I proposed turning each activity into an interactive challenge—allowing children to actively engage with stories, identify keywords, construct sentences, and express their own ideas.</p>
+                    <p class="text-normal text-gray-500 mt-4 text-justify">I brought these directions into team discussions, where we aligned on using <span class="text-white">gamified elements</span> to make literacy practice more engaging and encourage continued participation. We also introduced <span class="text-white">local folklore and legends</span> as part of the content experience, giving children an opportunity to practice literacy through stories that are connected to Indonesian culture.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Decisions Section END -->
+        <!-- MVP Section -->
         <div class="flex-col justify-items-center py-2 mb-20 grid self-center">
-            <p class="text-4xl">Solutions</p>
+            <p class="text-4xl text-center">MVP Features</p>
             <!-- Features Lists -->
             <div class="w-full p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-4xl">
                 <div class="p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Baca Cerita</p>
-                    <p class="text-sm text-gray-500">Get users used to reading stories, <span class="text-[#5ce4ff]">finding keywords</span>, and understanding the meaning behind the story.</p>
+                    <p class="text-sm text-gray-500">Helps children practice reading comprehension by <span class="text-[#5ce4ff]">identifying key words</span> and interpreting the story.</p>
                 </div>
                 <div class="rounded-2xl p-3 grid gap-2 border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Main SPOK</p>
-                    <p class="text-sm text-gray-500">Challenge users to <span class="text-[#5ce4ff]">construct sentences</span> with the structure of Subject, Predicate, Object, and Description.</p>
+                    <p class="text-sm text-gray-500">Challenge children to <span class="text-[#5ce4ff]">construct sentences</span> with the structure of Subject, Predicate, Object, and Description.</p>
                 </div>
                 <div class="rounded-2xl p-3 grid gap-2 border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Mengarang</p>
-                    <p class="text-sm text-gray-500">Provide space for users to <span class="text-[#5ce4ff]">create creative stories</span> based on stories they have read previously.</p>
+                    <p class="text-sm text-gray-500">Gives children a space to <span class="text-[#5ce4ff]">create their own stories</span> based on what they have read.</p>
                 </div>
                 <div class="rounded-2xl p-3 grid gap-2 border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Cerita Rakyat</p>
@@ -108,39 +138,41 @@
                 </div>
             </div>
         </div>
-        <!-- Solution Section END -->
+        <!-- MVP Section END -->
         <!-- Gamification Section -->
         <div class="flex-col justify-items-center py-2 mb-20 grid self-center">     
-            <p class="text-4xl">Gamification</p>
-            <p class="text-normal text-gray-500 mt-4 text-center">We used <a href="https://yukaichou.com/gamification-examples/octalysis-gamification-framework/" target="_blank"><span class="text-white">Octalysis Framework Theory</span></a> to implement effective gamification ideas that suit this platform.</p>
-            <!-- Implementation Lists -->
+            <p class="text-4xl text-center">Gamification</p>
+            <div class="px-8">
+                <p class="text-normal text-gray-500 mt-4 text-justify lg:text-center">Reading practice can become repetitive, we explored game mechanics that could encourage continued participation without making learning feel like a competition. We used <a href="https://yukaichou.com/gamification-examples/octalysis-gamification-framework/" target="_blank"><span class="text-white">Octalysis Framework Theory</span></a> to implement effective gamification ideas that suit this platform.</p>
+            </div>
+            <!-- Gamification Lists -->
             <div class="w-full p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-4xl">
                 <div class="p-3 grid gap-2 col-span-2 md:col-span-1 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Empowerment</p>
-                    <p class="text-sm text-gray-500">Explore users creativity by <span class="text-white">combining elements</span> from two or more stories into new imaginative narrative experiences.</p>
+                    <p class="text-sm text-gray-500">Encourage creative expression by <span class="text-white">combining elements</span> from multiple stories.</p>
                 </div>
                 <div class="p-3 grid gap-2 col-span-2 md:col-span-1 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Accomplishment</p>
-                    <p class="text-sm text-gray-500">Implement <span class="text-white">Leaderboard</span> system, motivating users to compete achieve higher scores and consistency.</p>
+                    <p class="text-sm text-gray-500">Implement <span class="text-white">Leaderboard</span> system. Encourages young learners to improve their scores and maintain consistent progress.</p>
                 </div>
                 <div class="p-3 grid gap-2 col-span-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Epic Meaning & Calling</p>
-                    <p class="text-sm text-gray-500">Attract first-time users through <span class="text-white">Tutorials & Hints</span> guiding them to understand mechanics purpose and achieve better results consistently.</p>
+                    <p class="text-sm text-gray-500">Attract first-time users through <span class="text-white">Tutorials & Hints</span>, guiding them through the game mechanics and their purpose.</p>
                 </div>
                 <div class="p-3 grid gap-2 col-span-2 md:col-span-1 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Loss & Avoidance</p>
-                    <p class="text-sm text-gray-500">Encourage users to <span class="text-white">maintain streaks</span> by completing tasks consistently and maximizing potential scores.</p>
+                    <p class="text-sm text-gray-500">Encourage students to <span class="text-white">maintain streaks</span> by completing tasks consistently and maximizing potential scores.</p>
                 </div>
                 <div class="p-3 grid gap-2 col-span-2 md:col-span-1 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
                     <p class="text-1xl font-semibold md:font-normal md:text-2xl">Social Influence</p>
-                    <p class="text-sm text-gray-500">Enable users to <span class="text-white">comment</span> on others creations fostering interaction feedback collaboration in platform ecosystem.</p>
+                    <p class="text-sm text-gray-500">Enable students to <span class="text-white">comment</span> on others creations fostering interaction feedback collaboration in platform ecosystem.</p>
                 </div>
             </div>
         </div>
         <!-- Gamification Section END -->
         <!-- Result Section -->
         <div class="flex-col justify-items-center py-2 mb-20 grid self-center">
-            <p class="text-4xl">Results</p>
+            <p class="text-4xl">The Product</p>
             <!-- Mockups Showcase List -->
             <div class="w-full p-6 md:p-8 grid grid-cols-4 gap-4 rounded-4xl">
                 <img src="img/lenka-landing-page.png" alt="lenka-landing-page" class="grid col-span-2 rounded-2xl">
@@ -153,6 +185,40 @@
             </div>
         </div>
         <!-- Result Section END -->
+        <!-- Achievement Section -->
+        <div id="achievement" class="flex-col justify-items-center py-2 mb-20 grid self-center">
+            <p class="text-4xl text-center">Our Achievement</p>
+            <p class="text-normal text-gray-500 mt-4 text-center">Lensa Kata was awarded <span class="text-white"> 2nd Best Capstone Project</span> among 18 teams, based on evaluations of innovation, functionality, and final pitching presentation by industry judges.</p>
+            <div class="w-full p-6 md:p-8 grid grid-cols-2 gap-4 rounded-4xl">
+                <img src="img/lenka-second-nominee.png" alt="lenka-nominee" class="grid col-span-2 lg:col-span-1 rounded-2xl">
+                <img src="img/lenka-team-exposure.png" alt="lenka-exposure" class="grid col-span-2 lg:col-span-1 rounded-2xl">
+            </div>
+        </div>
+        <!-- Achievement Section END -->
+        <!-- Reflection Section -->
+        <div class="flex-col justify-items-center py-2 mb-20 grid self-center">
+            <p class="text-4xl text-center">What I Learned</p>
+            <!-- Reflection List -->
+            <div class="w-full p-6 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-4 rounded-4xl">
+                <div class="p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-2xl md:font-normal md:text-2xl">Gamification Should Support the Learning Goal</p>
+                    <p class="text-sm text-gray-500">I learned that gamification is most effective when it <span class="text-[#5ce4ff]">reinforces the learning experience</span> rather than becoming the goal itself. I had to consider how game mechanics could encourage users, especially children to stay engaged while still keeping literacy as the primary focus.</p>
+                </div>
+                <div class="p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-2xl md:font-normal md:text-2xl">Start with the Learning Experience</p>
+                    <p class="text-sm text-gray-500">Designing an educational product taught me to <span class="text-[#5ce4ff]">define what children need</span> to learn before deciding what features to build. This helped me keep the product focused on three core learning goals: reading comprehension, sentence construction, and creative writing.</p>
+                </div>
+                <div class="p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-2xl md:font-normal md:text-2xl">Balance Engagement with Simplicity</p>
+                    <p class="text-sm text-gray-500">I learned that adding more mechanics does not necessarily make an experience more engaging. For children, interactions need to be <span class="text-[#5ce4ff]">simple enough to understand</span> independently while still providing enough challenge to maintain their interest.</p>
+                </div>
+                <div class="p-3 grid gap-2 rounded-2xl border border-spacing-0.5 border-[#001c35] hover:border-[#5ce4ff] transition-all delay-50 duration-300 ease-in-out">
+                    <p class="text-2xl md:font-normal md:text-2xl">Collaboration Shapes the Product</p>
+                    <p class="text-sm text-gray-500">As the team lead, I learned that good product decisions <span class="text-[#5ce4ff]">do not happen through design work alone</span>. My role required me to connect research insights, product direction, and team execution, while bringing different perspectives together to keep the project moving toward the same goal.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Reflection Section END -->
     <!-- Copyright Footer -->
     <section>
       <div class="flex justify-center text-center mt-20 p-4">
