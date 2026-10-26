@@ -3,7 +3,7 @@ import { Observer } from 'tailwindcss-intersect';
 
 // Initialize Typed.js
 const typed = new Typed("#textRotator", {
-  strings: ["UI/UX Design", "Product Thinking", "Data-Driven Solutions", "Gamifications"],
+  strings: ["UI/UX Design", "Product Design", "UX Strategy", "Visual Design", "Learning Through Building"],
   typeSpeed: 50,
   loop: true,
 });
